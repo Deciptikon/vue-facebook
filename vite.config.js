@@ -10,6 +10,15 @@ export default defineConfig({
   base: './',
   build: {
     outDir: 'docs',
+    assetsDir: 'assets',
+    rollupOptions: {
+      output: {
+        // уникальные имена файлов
+        assetFileNames: 'assets/[name]-[hash][extname]',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+      },
+    },
   },
   resolve: {
     alias: {
