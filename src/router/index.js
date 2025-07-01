@@ -6,12 +6,12 @@ const router = createRouter({
 
   routes: [
     {
-      path: '/',
+      path: '/vue-facebook/',
       name: 'home',
       component: HomeView,
     },
     {
-      path: '/about',
+      path: '/vue-facebook/about',
       name: 'about',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
