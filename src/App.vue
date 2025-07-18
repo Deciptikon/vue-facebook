@@ -10,7 +10,7 @@
 
     <!-- Простой футер -->
     <footer>
-      <p>&copy; 2023 Мой сайт</p>
+      <p>&copy; 2025 Deciptikon</p>
     </footer>
   </div>
 </template>

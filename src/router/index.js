@@ -18,6 +18,11 @@ const router = createRouter({
       name: 'contact',
       component: () => import('../views/ContactView.vue'),
     },
+    {
+      path: '/vue-facebook/photoalbum',
+      name: 'photoalbum',
+      component: () => import('../views/PhotoalbumView.vue'),
+    },
   ],
 })
 
