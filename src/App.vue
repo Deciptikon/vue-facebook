@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <!-- Простая навигация -->
-    <nav v-if="$route.path !== '/vue-facebook/'">
-      <router-link to="/vue-facebook/">На главную</router-link>
+    <nav v-if="$route.name !== 'home'">
+      <router-link :to="{ name: 'home' }">На главную</router-link>
     </nav>
 
     <!-- Здесь будут отображаться страницы -->
