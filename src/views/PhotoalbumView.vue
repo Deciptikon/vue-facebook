@@ -113,7 +113,7 @@ export default {
 .photo-item p {
   margin-top: 10px;
   font-size: 14px;
-  color: #555;
+  color: #c9c9c9;
 }
 
 /* Стили модального окна */
@@ -131,7 +131,7 @@ export default {
 }
 
 .modal-content {
-  background-color: #fff;
+  background-color: #8f8f8f;
   padding: 20px;
   border-radius: 8px;
   max-width: 90%;
@@ -184,7 +184,7 @@ export default {
 .nav-btn {
   padding: 8px 16px;
   font-size: 16px;
-  background-color: #42b983;
+  background-color: #59a382;
   color: white;
   border: none;
   border-radius: 4px;
@@ -193,7 +193,7 @@ export default {
 }
 
 .nav-btn:hover:not(:disabled) {
-  background-color: #358f65;
+  background-color: #316a4f;
 }
 
 .nav-btn:disabled {
