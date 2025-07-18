@@ -1,15 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>О нашей компании</h1>
+    <p>Мы лучшие в своем деле с 2023 года</p>
+    <router-link to="/vue-facebook/">На главную</router-link>
   </div>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
