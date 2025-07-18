@@ -1,1 +1,0 @@
-import{_ as n,c as r,a as o,b as s,w as a,r as l,o as u,d}from"./index-C82m6lyg.js";const m={};function _(i,e){const t=l("router-link");return u(),r("div",null,[e[1]||(e[1]=o("h1",null,"Фотоальбом",-1)),e[2]||(e[2]=o("p",null,"фоточки...",-1)),s(t,{to:{name:"home"}},{default:a(()=>e[0]||(e[0]=[d("На главную")])),_:1,__:[0]})])}const p=n(m,[["render",_]]);export{p as default};
