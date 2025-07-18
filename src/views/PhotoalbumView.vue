@@ -82,7 +82,7 @@ export default {
 </script>
 
 <style scoped>
-/* Стили для сетки фотографий (оставляем предыдущие) */
+/* Стили для сетки фотографий */
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -91,12 +91,29 @@ export default {
 }
 
 .photo-item {
-  cursor: pointer;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
   transition: transform 0.3s ease;
 }
 
 .photo-item:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.photo-item img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.photo-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
 }
 
 /* Стили модального окна */
