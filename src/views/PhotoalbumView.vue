@@ -50,6 +50,6 @@ export default {
 .photo-item p {
   margin-top: 10px;
   font-size: 14px;
-  color: #555;
+  color: #b2b2b2;
 }
 </style>
