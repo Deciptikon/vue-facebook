@@ -42,7 +42,7 @@ export default {
   name: 'PhotoalbumView',
   data() {
     return {
-      photoCount: 5, // Количество фотографий
+      photoCount: 26, // Количество фотографий
       isModalOpen: false,
       currentPhoto: 1,
     }
