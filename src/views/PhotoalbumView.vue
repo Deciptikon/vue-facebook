@@ -50,11 +50,11 @@ export default {
   methods: {
     getThumbnailUrl(n) {
       //return `/images/photoalbum/thumb/photo${n}.jpeg`
-      return `./images/photoalbum/photo${n}.jpeg`
+      return `./images/photoalbum/photo${n}.jpg`
     },
     getFullsizeUrl(n) {
       //return `/images/photoalbum/full/photo${n}.jpeg`
-      return `./images/photoalbum/photo${n}.jpeg`
+      return `./images/photoalbum/photo${n}.jpg`
     },
     openModal(n) {
       this.currentPhoto = n
