@@ -77,6 +77,31 @@ export default {
         this.currentPhoto--
       }
     },
+    // Метод для обработки клавиатуры
+    handleKeydown(e) {
+      // Работаем только когда открыто модальное окно
+      if (!this.isModalOpen) return
+
+      switch (e.key) {
+        case 'ArrowLeft':
+          this.prevPhoto()
+          break
+        case 'ArrowRight':
+          this.nextPhoto()
+          break
+        case 'Escape': // Дополнительно: закрываем по Esc
+          this.closeModal()
+          break
+      }
+    },
+  },
+  mounted() {
+    // Регистрируем обработчик при создании компонента
+    window.addEventListener('keydown', this.handleKeydown)
+  },
+  beforeUnmount() {
+    // Обязательно удаляем обработчик при уничтожении компонента
+    window.removeEventListener('keydown', this.handleKeydown)
   },
 }
 </script>
